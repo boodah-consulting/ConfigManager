@@ -148,6 +148,8 @@ public:
     ConfigManager() {}
 
     Mode getMode();
+    void sendCORS();
+    void handleOptions();
     void setAPName(const char *name);
     void setAPPassword(const char *password);
     void setAPFilename(const char *filename);
